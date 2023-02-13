@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  electric-muyu:
+    container_name: electric-muyu
+    ports:
+      - "39999:80"
+    image: 'liuzy/electric-muyu'
